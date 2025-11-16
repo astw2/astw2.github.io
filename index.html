@@ -5,8 +5,18 @@
 <head>
     <title>Alex Wan</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="jPYDRRxuVZqGoH2gJ_OWKAc8me3hY1P7-FTKr8ikHrY" />
+
+    <meta name="description" content="The website of Alex Wan that contains brief information about him." />
+    <meta name="author" content="Alex Wan" />
+    <meta name="keywords" content="Alex Wan, website, academic, proof mining" />
+
+    <meta property="og:title" content="Alex Wan" />
+    <meta property="og:url" content="https://astw2.github.io/" />
+    <meta property="og:description" content="The website of Alex Wan that contains brief information about him." />
+    <meta property="og:type" content="website" />
+
     <link rel="stylesheet" href="https://latex.vercel.app/style.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css">
@@ -20,8 +30,9 @@
         <p>
             This website contains brief information about the above person along with his publications, talks and some
             history.
-            It uses the <a href="https://latex.vercel.app/">LaTex.css</a> library by <a
-                href="https://github.com/vincentdoerig">Vincent Dörig</a>.
+            It uses the <a href="https://latex.vercel.app/" target="blank">LaTex.css</a> library by <a
+                href="https://github.com/vincentdoerig" target="blank">Vincent Dörig</a>.
+            Dark mode theme is based on the prefers-color-scheme CSS media query.
         </p>
     </div>
 
@@ -35,73 +46,162 @@
             <li><a href="#history">History</a></li>
             <li><a href="#contact">Contact</a></li>
             <label for="sn-lastupdated" class="sidenote-toggle"><a
-                    title="Click to reveal when the website was last updated."">*</a></label>
+                    title="Click to reveal when the website was last updated.">*</a></label>
         </ol>
     </nav>
 
     <input type=" checkbox" id="sn-lastupdated" class="sidenote-toggle" />
-        <span class="sidenote">Last updated - November 2025</span>
+    <span class="sidenote">Last updated - November 2025</span>
 
-        <div id="home">
+    <div id="home">
+        <header>
             <h2>Home</h2>
-            <p> Welcome! You have arrived to the webpage of Alex Wan. This site is currently under construction.
-                <label for="sn-anything" class="sidenote-toggle"><a
-                        title="Click to reveal a picture.">⊕</a></label>
-                <input type="checkbox" id="sn-anything" class="sidenote-toggle" />
-                <span class="sidenote left"><img src=assets/2022.jpg alt="Alex at a waterfall.">Niagara Falls
-                    (2022), the
-                    Canadian side.</span>
-            </p>
-            <p> I am currently a PhD student at the University of Bath, a part of the <a
-                    href="https://www.bath.ac.uk/research-groups/mathematical-foundations-of-computation/">Mathematical
-                    Foundations of Computation</a> research group and under the supervision of <a
-                    href="https://t-powell.github.io/">Thomas Powell</a>.</p>
+        </header>
+        <p> Welcome! You have arrived to the webpage of Alex Wan. This site is currently under construction.
+            <label for="sn-anything" class="sidenote-toggle"><a title="Click to reveal a picture.">⊕</a></label>
+            <input type="checkbox" id="sn-anything" class="sidenote-toggle" />
+            <span class="sidenote left"><img src=assets/images/2022.jpg alt="Alex at a waterfall.">Niagara Falls
+                (2022), the
+                Canadian side.</span>
+        </p>
+        <p> I am currently a PhD student at the University of Bath, a part of the <a
+                href="https://www.bath.ac.uk/research-groups/mathematical-foundations-of-computation/"
+                target="blank">Mathematical
+                Foundations of Computation</a> research group and under the supervision of <a
+                href="https://t-powell.github.io/" target="blank">Thomas Powell</a>.</p>
+        <p>
+            My research interests include (but not exclusive to):
+        <ul>
+            <li>
+                proof mining;
+            </li>
+            <li>
+                probability theory.
+            </li>
+        </ul>
+        </p>
+        <footer>
             <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
-        </div>
+        </footer>
+    </div>
 
-        <div id="papers">
-            <h2>Papers</h2>
-            <h3> Preprints</h3>
-            <h3>Publications</h3>
-            <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
-        </div>
+    <div id="papers">
+        <h2>Papers</h2>
+        <h4> Preprints</h4>
+        <ul>
+            <li>
+                <i>An approximate zero-one law via the Dialectica interpretation</i> <br>
+                <a href="https://t-powell.github.io/" target="blank">Thomas Powell</a> and Alex Wan, <br>
+                (<a href="https://arxiv.org/abs/2508.20849v1" target="blank">arxiv</a>) Submitted, 2025.
+            </li>
+        </ul>
+        <h4>Publications</h4>
+        <ul>
+            <li>
+                <i>Power-like maps in n-abelian semigroups</i> <br>
+                Alex Wan, Ranganathan Padmanabhan and Yang Zhang <br>
+                (<a href="https://doi.org/10.1007/s00233-025-10589-0" target="blank">doi</a>, <a
+                    href="https://rdcu.be/eM0SB" target="blank">Springer Nature SharedIt</a>) Semigroup Forum.
+            </li>
+        </ul>
+        <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
+    </div>
 
-        <div id="talks">
+    <div id="talks">
+        <header>
             <h2>Talks</h2>
-            <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
-        </div>
+        </header>
+        <ul>
+            <li>
+                <a href="https://taroccoesbrocco.github.io/SMLS/smls-sussex.html" target="blank">8<sup>th</sup> Southern
+                    and Midlands Logic Seminar</a>, University of Sussex, Brighton, <br> 11th December 2024. <br> Talk:
+                Zero-one laws: a quantitative insight (<a
+                    href="assets/slides/2024 SMLS - Zero One Laws.pdf">slides</a>).
+            </li>
+            <li>
+                <a href="https://sites.google.com/view/wpm24" target="blank">Workshop on Proof Mining 2024</a>,
+                Technische Universitat Darmstadt, Darmstadt, <br> 4 - 6 September 2024. <br> Talk: Zero-one laws: a
+                quantitative insight (<a
+                    href="assets/slides/2024 Workshop on Proof Mining Zero One Laws.pdf">slides</a>).
+            </li>
+        </ul>
+        <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
+    </div>
 
-        <div id="teaching">
+    <div id="teaching">
+        <header>
             <h2>Teaching</h2>
-            <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
-        </div>
+        </header>
+        <h4>University of Bath</h4>
+        <hr>
 
-        <div id="history">
+        I have been a tutorial assistant for the following modules:
+        <ul>
+            <li>Algorithms and Complexity (Semester 1 & 2 2024)</li>
+            <li>Functional Programming (Semester 2 2023, Semester 2 2024);</li>
+            <li>Programming 1 (Semester 1 2023, Semester 1 2024).</li>
+        </ul>
+        <h4>Aside</h4>
+        <hr>
+        <p>I tutor maths and English on behalf of Kumon since September 2017.</p>
+        <footer>
+            <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
+        </footer>
+    </div>
+
+    <div id="history">
+        <header>
             <h2>History</h2>
-            <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
-        </div>
+        </header>
 
-        <div id="contact">
+        <table class="borders-custom col-1-r col-2-l">
+            <thead>
+                <tr>
+                    <h4>Education</h4>
+                    <hr>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>since Oct 2023</td>
+                    <td>PhD in Computer Science, <br> Mathematical Foundations of Computation, <br>
+                        Department of
+                        Computer Science <br> University of Bath. <br> (Supervised by <a
+                            href="https://t-powell.github.io/" target="blank">Thomas
+                            Powell</a>)</td>
+                </tr>
+                <tr>
+                    <td>Oct 2019 - Jun 2023</td>
+                    <td>Master of Mathematics, <br> Durham University.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
+    </div>
+
+    <div id="contact">
+        <header>
             <h2>Contact</h2>
-            <address title="Sorry, an anti-scrapping mechanism." style="user-select:none;">
-                [<b><u>a</u></b>lpha][<b><u>s</u></b>ierra][<b><u>t</u></b>ango][<b><u>w</u></b>hiskey][<b><u>two</u></b>][<b><u>two</u></b>]
-                <span style="display:none;">null</span> AT bath DOT ac DOT uk <br>
-            </address>
+        </header>
+        <address title="Sorry, an anti-spam mechanism." style="user-select:none;">
+            [<b><u>a</u></b>lpha][<b><u>s</u></b>ierra][<b><u>t</u></b>ango][<b><u>w</u></b>hiskey][<b><u>two</u></b>][<b><u>two</u></b>]
+            <span style="display:none;">null</span> AT bath <!--.example--> DOT ac DOT uk <br>
+        </address>
+        <br>
+        <address style="user-select:none;">
+            1 West 4.51,<br>
+            Department of Computer Science, <br>
+            University of Bath, <br>
+            Claverton Down, <br>
+            Bath, <br>
+            BA2 7AY, <br>
+            United Kingdom. <br>
             <br>
-            <address style="user-select:none;">
-                1 West 4.51,<br>
-                Department of Computer Science, <br>
-                University of Bath, <br>
-                Claverton Down, <br>
-                Bath, <br>
-                BA2 7AY, <br>
-                United Kingdom. <br>
-                <br>
-            </address>
-            <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
-        </div>
+        </address>
+        <p style="text-align: right;"><a href="#">[Back to the top!]</a></p>
+    </div>
 
-        <!-- Script for pretty latex formulas should I want them in the future.
+    <!-- Script for pretty latex formulas should I want them in the future.
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
         -->
